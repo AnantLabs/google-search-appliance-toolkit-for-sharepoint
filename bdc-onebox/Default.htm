@@ -1,0 +1,25 @@
+<html>
+<body>
+<p>
+</p>
+To build: use Visual Web Developer 2005 express edition
+<p>
+</p>
+Create a website or virtual directory pointing to the root "bdc-onebox"
+Before you run: set the ssp - shared service provider - in web.config
+<br>
+Call: OneBoxHandler.ashx
+<br>
+Parameters:
+<br>
+lob= line of business name
+<br>
+entity= the "table" 
+<br>
+fieldname= on which the search is performed
+<br>
+query= customer search terms
+<p>
+Example:
+http://contentvm1:8888/OneBox/OneBoxHandler.ashx?lob=AdventureWorksSampleInstance&entity=Product&fieldname=name&query=Bike
+</body></html>

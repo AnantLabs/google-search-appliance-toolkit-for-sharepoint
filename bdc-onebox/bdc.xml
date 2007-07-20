@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BdcConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ssp xmlns="http://schemas.google.com/enterprise/2006/12/bdc">SharedService1</ssp>
+<lob xmlns="http://schemas.google.com/enterprise/2006/12/bdc" name="AdventureWorksSampleInstance">
+  <entity name="Product" listUrl="http://contentvm1/Pages/AdventureCustomer.aspx">
+    <action name="view" url="http://contentvm1:35102/ssp/admin/Content/Product.aspx?ProductID={ProductID}" />
+  </entity>
+</lob>
+</BdcConfig>
