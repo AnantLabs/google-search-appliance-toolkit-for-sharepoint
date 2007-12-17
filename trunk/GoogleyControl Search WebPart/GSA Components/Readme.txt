@@ -1,0 +1,1 @@
+Please upload to your GSA as the SPS_Frontend and make sure the frontend name is the same in your web.config file

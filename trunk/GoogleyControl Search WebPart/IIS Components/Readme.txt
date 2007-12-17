@@ -1,0 +1,1 @@
+Please add to each web.config of the site you want Google Enabled
